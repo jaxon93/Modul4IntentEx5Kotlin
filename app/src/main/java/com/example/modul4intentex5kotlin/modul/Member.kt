@@ -23,7 +23,7 @@ class Member(var id: Int, var name: String?) : Parcelable {
     }
 
     override fun toString(): String {
-        return "User{" +
+        return "Member{" +
                 "id='" + id + '\'' +
                 ", name=" + name +
                 '}'
